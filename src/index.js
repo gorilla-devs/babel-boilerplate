@@ -1,3 +1,3 @@
 (async () => {
-  console.log(url);
+  console.log("Hello World");
 })();
