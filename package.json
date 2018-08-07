@@ -1,0 +1,25 @@
+{
+  "name": "babel-boilerplate",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "./node_modules/.bin/babel -d ./dist ./src",
+    "start": "./node_modules/.bin/babel -d ./dist ./src && node ./dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/*",
+    "README.md",
+    "LICENCE"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-eslint": "*",
+    "babel-preset-es2015": "*",
+    "babelify": "7.2.0",
+    "eslint": "*",
+    "eslint-config-airbnb": "*"
+  },
+  "dependencies": {
+
+  }
+}
