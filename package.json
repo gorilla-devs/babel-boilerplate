@@ -16,7 +16,7 @@
     "babel-eslint": "*",
     "babel-preset-es2015": "*",
     "babelify": "7.2.0",
-    "eslint": "*",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "*"
   },
   "dependencies": {
